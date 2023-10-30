@@ -3,7 +3,7 @@ namespace ThreadsCloneAPI.Data
 {
     public class ApplicationContext
     {
-        public static List<Models.Thread> threads { get; set; }
+        public static List<Models.Thread> Threads { get; set; }
         static ApplicationContext() { 
             threads = new List<Models.Thread>()
             {
